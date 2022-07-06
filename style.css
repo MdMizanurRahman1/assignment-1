@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.centered {
+    background-image: url(images/donation6.jpg );
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: center;
+
+}
