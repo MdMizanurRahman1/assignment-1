@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .centered {
@@ -13,7 +17,7 @@ h1 {
     height: 450px;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(18, 18, 18, 1));
+    background-color: linear-gradient(rgba(18, 17, 17, 0.977));
 }
 
 .centered-text {
@@ -34,5 +38,19 @@ h1 {
     color: white;
     font-weight: 700;
     position: center;
+
+}
+
+.donation-money {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#donation-status {
+    left: 25%;
+    width: 50%;
+    position: relative;
+    color: rgba(41, 40, 40, 0.571);
 
 }
