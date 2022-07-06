@@ -13,15 +13,16 @@ h1 {
     height: 450px;
     background-position: center;
     background-size: cover;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    background-image: linear-gradient(rgba(18, 18, 18, 1));
 }
 
 .centered-text {
     position: absolute;
+    color: white;
     top: 40%;
     left: 50%;
+    font-weight: bold;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
